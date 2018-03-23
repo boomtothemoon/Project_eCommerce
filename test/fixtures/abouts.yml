@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  header: MyString
+  about: MyText
+  app_start_header: MyString
+  app_start_value: MyString
+
+two:
+  header: MyString
+  about: MyText
+  app_start_header: MyString
+  app_start_value: MyString
