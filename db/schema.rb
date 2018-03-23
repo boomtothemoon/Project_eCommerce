@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180322235519) do
+ActiveRecord::Schema.define(version: 20180323005221) do
+
+  create_table "abouts", force: :cascade do |t|
+    t.string "header"
+    t.text "about"
+    t.string "app_start_header"
+    t.string "app_start_value"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string "namespace"
